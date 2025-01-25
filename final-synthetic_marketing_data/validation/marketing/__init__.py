@@ -1,0 +1,3 @@
+"""
+Marketing validation package
+"""

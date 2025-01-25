@@ -1,0 +1,25 @@
+{
+    "tables": {
+        "consumers": {
+            "columns": {
+                "age": {
+                    "sdtype": "numerical"
+                },
+                "gender": {
+                    "sdtype": "categorical"
+                },
+                "income": {
+                    "sdtype": "numerical"
+                },
+                "location": {
+                    "sdtype": "categorical"
+                },
+                "education_level": {
+                    "sdtype": "categorical"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

@@ -1,0 +1,16 @@
+,Sampling Bias,Historical Bias,Measurement Bias,Label Bias,Algorithmic Bias,Interaction Bias,Selection Bias,Stereotyping Bias,Proxy Bias,Group Fairness,Individual Fairness,Confirmation Bias,Temporal Bias,Regulatory and Ethical Bias
+Customer Segmentation,X,,,,,,,,,,,,,
+Churn Prediction,X,X,X,X,X,,X,,X,X,X,X,X,
+CLV Prediction,X,X,X,,X,,X,,,X,,X,X,
+Recommendation Systems,X,X,,,X,X,X,X,X,X,X,,X,X
+Lead Scoring,X,X,,X,X,,X,X,X,X,X,X,X,X
+CTR Prediction,X,X,X,X,,X,X,,,,,,,
+Sentiment Analysis,X,X,X,X,,X,,X,,,,,,
+Feedback Categorization,,,,X,,,,,,,,,,
+Lookalike Modeling,X,X,,,X,,,X,X,,X,,,X
+Dynamic Pricing,X,X,,,,X,,,X,,X,,X,X
+Cross-Sell/Up-Sell,X,X,,,,,,,,X,X,,,
+A/B Testing,X,,X,,,,,,,,,,,
+Attribution Modeling,X,X,X,,,,,,,,,X,X,
+Fraud Detection,X,,,,,,,,,,,,,
+Ad Spend Optimization,X,,,,,,,,,,,,,X

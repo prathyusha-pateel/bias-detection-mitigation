@@ -1,0 +1,10 @@
+PUMS_CODE,COLUMN_NAME,DESCRIPTION
+SEX,Gender,Gender of individual
+RAC1P,Race,Race of individual
+HISP,Ethnicity,Hispanic origin
+SCHL,Education_Level,Educational attainment
+ESR,Employment_Status,Employment status
+AGEP,AGE,Age in years
+PINCP,INCOME,Total person's income
+WKHP,WEEKLY_EARNINGS,Usual hours worked per week
+FREQ,BUYING_FREQUENCY,Frequency of purchases

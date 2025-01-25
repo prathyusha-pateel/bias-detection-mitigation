@@ -1,0 +1,131 @@
+PUMS_CODE,SHORT_DESC,COLUMN_NAME,LONG_DESCRIPTION
+ RT , Record Type ,RECORD_TYPE, Indicates whether record is Housing (H) or Person (P) record 
+ SERIALNO , Serial Number ,SERIAL_NUMBER, Unique identifier for housing unit/group quarters 
+ DIVISION , Division ,DIVISION, Census division code based on 2020 Census definitions 
+ SPORDER , Person Number ,PERSON_NUMBER, Person's number within household (01-20) 
+ PUMA , Public Use Microdata Area ,PUBLIC_USE_MICRODATA_AREA," Geographic area code with 100,000+ population "
+ REGION , Region ,REGION," Census region code (Northeast, Midwest, South, West) "
+ STATE , State ,STATE, Two-digit state code 
+ ADJINC , Income Adjustment Factor ,INCOME_ADJUSTMENT_FACTOR, Factor to adjust income to constant dollars (6 implied decimal places) 
+ PWGTP , Person Weight ,PERSON_WEIGHT, Population weight for person-level statistics 
+ AGEP , Age ,AGE, Person's age 
+ CIT , Citizenship ,CITIZENSHIP," Citizenship status (native born, naturalized, non-citizen) "
+ CITWP , Year of Naturalization ,YEAR_OF_NATURALIZATION, Year when person became naturalized U.S. citizen 
+ COW , Class of Worker ,CLASS_OF_WORKER," Employment category (private, government, self-employed, etc.) "
+ DDRS , Self-care Difficulty ,SELF-CARE_DIFFICULTY, Whether person has difficulty with self-care 
+ DEAR , Hearing Difficulty ,HEARING_DIFFICULTY, Whether person has difficulty hearing 
+ DEYE , Vision Difficulty ,VISION_DIFFICULTY, Whether person has difficulty seeing 
+ DOUT , Independent Living Difficulty ,INDEPENDENT_LIVING_DIFFICULTY, Whether person has difficulty living independently 
+ DPHY , Physical Difficulty ,PHYSICAL_DIFFICULTY, Whether person has ambulatory difficulty 
+ DRAT , Veteran Disability Rating ,VETERAN_DISABILITY_RATING, Service-connected disability rating percentage 
+ DRATX , Veteran Disability Status ,VETERAN_DISABILITY_STATUS, Whether veteran has service-connected disability 
+ DREM , Cognitive Difficulty ,COGNITIVE_DIFFICULTY, Whether person has cognitive difficulty 
+ ENG , English Ability ,ENGLISH_ABILITY, How well person speaks English 
+ FER , Fertility ,FERTILITY, Whether female gave birth in past 12 months 
+ GCL , Grandchildren Living ,GRANDCHILDREN_LIVING, Whether grandparents live with grandchildren 
+ GCM , Grandchild Care Months ,GRANDCHILD_CARE_MONTHS, Length of time responsible for grandchildren 
+ GCR , Grandchild Responsibility ,GRANDCHILD_RESPONSIBILITY, Whether grandparent is responsible for grandchildren 
+ HIMRKS , Health Insurance Marketplace ,HEALTH_INSURANCE_MARKETPLACE, Type of health insurance marketplace coverage 
+ HINS1 , Employer Insurance ,EMPLOYER_INSURANCE, Has health insurance through employer 
+ HINS2 , Direct Purchase Insurance ,DIRECT_PURCHASE_INSURANCE, Has directly purchased health insurance 
+ HINS3 , Medicare ,MEDICARE, Has Medicare coverage 
+ HINS4 , Medicaid ,MEDICAID, Has Medicaid coverage 
+ HINS5 , TRICARE ,TRICARE, Has TRICARE military health coverage 
+ HINS6 , VA Healthcare ,VA_HEALTHCARE, Enrolled in VA health care 
+ HINS7 , Indian Health Service ,INDIAN_HEALTH_SERVICE, Has Indian Health Service coverage 
+ INTP , Interest Income ,INTEREST_INCOME," Interest, dividends, and net rental income "
+ JWMNP , Travel Time to Work ,TRAVEL_TIME_TO_WORK, Number of minutes to get to work 
+ JWRIP , Vehicle Occupancy ,VEHICLE_OCCUPANCY, Number of people who share ride to work 
+ JWTRNS , Transportation to Work ,TRANSPORTATION_TO_WORK, Means of transportation to work 
+ LANX , Non-English Language ,NON-ENGLISH_LANGUAGE, Whether speaks language other than English at home 
+ MAR , Marital Status ,MARITAL_STATUS, Current marital status 
+ MARHD , Recent Divorce ,RECENT_DIVORCE, Whether divorced in past 12 months 
+ MARHM , Recent Marriage ,RECENT_MARRIAGE, Whether married in past 12 months 
+ MARHT , Times Married ,TIMES_MARRIED, Number of times person has been married 
+ MARHW , Recent Widowed ,RECENT_WIDOWED, Whether widowed in past 12 months 
+ MARHYP , Year Last Married ,YEAR_LAST_MARRIED, Year of last marriage 
+ MIG , Migration Status ,MIGRATION_STATUS, Whether lived in same house 1 year ago 
+ MIL , Military Service ,MILITARY_SERVICE, Military service status 
+ MLPA , Post-9/11 Service ,POST-9/11_SERVICE, Served September 2001 or later 
+ MLPB , Gulf War Service ,GULF_WAR_SERVICE, Served August 1990 - August 2001 
+ MLPCD , Cold War Service ,COLD_WAR_SERVICE, Served May 1975 - July 1990 
+ MLPE , Vietnam Era ,VIETNAM_ERA, Served during Vietnam era 
+ MLPFG , Early Cold War ,EARLY_COLD_WAR, Served February 1955 - July 1964 
+ MLPH , Korean War ,KOREAN_WAR, Served during Korean War 
+ MLPIK , Pre-Korean War ,PRE-KOREAN_WAR, Served before Korean War 
+ MLPJ , World War II ,WORLD_WAR_II, Served during World War II 
+ NWAB , Temporary Absence ,TEMPORARY_ABSENCE, Whether temporarily absent from work 
+ NWAV , Available for Work ,AVAILABLE_FOR_WORK, Whether available for work 
+ NWLA , Layoff Status ,LAYOFF_STATUS, Whether on layoff from work 
+ NWLK , Looking for Work ,LOOKING_FOR_WORK, Whether looking for work 
+ NWRE , Recall Status ,RECALL_STATUS, Whether informed of work recall 
+ OIP , Other Income ,OTHER_INCOME, Other income past 12 months 
+ PAP , Public Assistance ,PUBLIC_ASSISTANCE, Public assistance income past 12 months 
+ RELSHIPP , Relationship ,RELATIONSHIP, Relationship to householder 
+ RETP , Retirement Income ,RETIREMENT_INCOME, Retirement income past 12 months 
+ SCH , School Enrollment ,SCHOOL_ENROLLMENT, Whether enrolled in school 
+ SCHG , Grade Level ,GRADE_LEVEL, Current grade level attending 
+ SCHL , Educational Attainment ,EDUCATIONAL_ATTAINMENT, Highest education completed 
+ SEMP , Self-Employment Income ,SELF-EMPLOYMENT_INCOME, Self-employment income past 12 months 
+ SEX , Sex ,SEX, Sex of person 
+ SSIP , SSI Income ,SSI_INCOME, Supplemental Security Income past 12 months 
+ SSP , Social Security Income ,SOCIAL_SECURITY_INCOME, Social Security income past 12 months 
+ WAGP , Wages ,WAGES, Wages and salary income past 12 months 
+ WKHP , Hours Worked ,HOURS_WORKED, Usual hours worked per week past 12 months 
+ WKL , When Last Worked ,WHEN_LAST_WORKED, When person last worked 
+ WKWN , Weeks Worked ,WEEKS_WORKED, Number of weeks worked past 12 months 
+ WRK , Worked Last Week ,WORKED_LAST_WEEK, Whether worked last week 
+ YOEP , Year of Entry ,YEAR_OF_ENTRY, Year of entry into US for foreign born 
+ ANC , Ancestry Reported ,ANCESTRY_REPORTED, Whether single or multiple ancestries reported 
+ ANC1P , First Ancestry ,FIRST_ANCESTRY, First reported ancestry 
+ ANC2P , Second Ancestry ,SECOND_ANCESTRY, Second reported ancestry 
+ DECADE , Entry Decade ,ENTRY_DECADE, Decade of entry to US for foreign born 
+ DIS , Disability Status ,DISABILITY_STATUS, Whether person has a disability 
+ DRIVESP , Vehicles Driven ,VEHICLES_DRIVEN, Number of vehicles calculated from carpool data 
+ ESP , Parent Employment ,PARENT_EMPLOYMENT, Employment status of parents 
+ ESR , Employment Status ,EMPLOYMENT_STATUS, Employment status recode 
+ FOD1P , First Degree Field ,FIRST_DEGREE_FIELD, First field of bachelor's degree 
+ FOD2P , Second Degree Field ,SECOND_DEGREE_FIELD, Second field of bachelor's degree 
+ HICOV , Health Insurance ,HEALTH_INSURANCE, Whether has health insurance coverage 
+ HISP , Hispanic Origin ,HISPANIC_ORIGIN, Detailed Hispanic origin 
+ INDP , Industry ,INDUSTRY, Industry of employment 
+ JWAP , Arrival Time ,ARRIVAL_TIME, Time of arrival at work 
+ JWDP , Departure Time ,DEPARTURE_TIME, Time of departure for work 
+ LANP , Language ,LANGUAGE, Detailed language spoken at home 
+ MIGPUMA , Migration PUMA ,MIGRATION_PUMA, PUMA of residence 1 year ago 
+ MIGSP , Migration State ,MIGRATION_STATE, State of residence 1 year ago 
+ MSP , Marital Status ,MARITAL_STATUS, Detailed marital status 
+ NAICSP , NAICS Code ,NAICS_CODE, North American Industry Classification System code 
+ NATIVITY , Nativity ,NATIVITY, Whether native or foreign born 
+ NOP , Parent Nativity ,PARENT_NATIVITY, Nativity of parent 
+ OC , Own Child ,OWN_CHILD, Whether own child of householder 
+ OCCP , Occupation ,OCCUPATION, Detailed occupation code 
+ PAOC , Parent Status ,PARENT_STATUS, Presence and age of own children 
+ PERNP , Person Earnings ,PERSON_EARNINGS, Total person's earnings 
+ PINCP , Person Income ,PERSON_INCOME, Total person's income 
+ POBP , Place of Birth ,PLACE_OF_BIRTH, Place of birth code 
+ POVPIP , Poverty Ratio ,POVERTY_RATIO, Income-to-poverty ratio 
+ POWPUMA , Work PUMA ,WORK_PUMA, PUMA of workplace 
+ POWSP , Work State ,WORK_STATE, State of workplace 
+ PRIVCOV , Private Insurance ,PRIVATE_INSURANCE, Has private health insurance 
+ PUBCOV , Public Insurance ,PUBLIC_INSURANCE, Has public health insurance 
+ QTRBIR , Birth Quarter ,BIRTH_QUARTER, Calendar quarter of birth 
+ RAC1P , Race ,RACE, Detailed race code 
+ RAC2P , Race (Expanded) ,RACE_(EXPANDED), Expanded detailed race code 
+ RAC3P , Race (Detailed) ,RACE_(DETAILED), Most detailed race code 
+ RACAIAN , American Indian/Alaska Native ,AMERICAN_INDIAN/ALASKA_NATIVE, Whether American Indian or Alaska Native 
+ RACASN , Asian ,ASIAN, Whether Asian 
+ RACBLK , Black ,BLACK, Whether Black/African American 
+ RACNH , Native Hawaiian ,NATIVE_HAWAIIAN, Whether Native Hawaiian 
+ RACNUM , Race Count ,RACE_COUNT, Number of race groups reported 
+ RACPI , Pacific Islander ,PACIFIC_ISLANDER, Whether Pacific Islander 
+ RACSOR , Some Other Race ,SOME_OTHER_RACE, Whether reported some other race 
+ RACWHT , White ,WHITE, Whether White 
+ RC , Related Child ,RELATED_CHILD, Whether related child in household 
+ SCIENGP , Science/Engineering ,SCIENCE/ENGINEERING, Whether degree in Science/Engineering field 
+ SCIENGRLP , Science/Engineering Related ,SCIENCE/ENGINEERING_RELATED, Whether degree in Science/Engineering related field 
+ SFN , Subfamily Number ,SUBFAMILY_NUMBER, Number of subfamily within household 
+ SFR , Subfamily Relationship ,SUBFAMILY_RELATIONSHIP, Relationship within subfamily 
+ SOCP , SOC Code ,SOC_CODE, Standard Occupational Classification code 
+ VPS , Veteran Period ,VETERAN_PERIOD, Period of military service for veterans 
+ WAOB , World Area of Birth ,WORLD_AREA_OF_BIRTH, World area of birth 

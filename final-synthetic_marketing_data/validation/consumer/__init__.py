@@ -1,0 +1,3 @@
+"""
+Consumer preference validation package
+"""
